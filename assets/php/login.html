@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  
+  </style>
+</head>
+<body>
+  <h1>Login</h1>
+  <form action="connect.php" method="post"></form>
+  <form id="login-form">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+
+    <button type="submit"> <a href="profile.html">Login</button>
+  </form>
+
+
+  <p>Don't have an account? <a href="signup.html">Signup here</a></p>
+
+  <script src="signup.js">
+    
+  </script>
+</body>
+</html>
